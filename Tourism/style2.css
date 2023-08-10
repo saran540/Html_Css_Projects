@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #0f98bb;
+}
+.one
+{
+  display: flex;
+}
+header
+{
+  margin-top: 20px;
+  margin-left: 20px;
+  color: white;
+}
+.one
+{
+  background-color: white;
+  padding: 10px;
+  height: 100px;
+  margin: 20px 20px;
+  border-radius: 5px;
+  position: relative;
+}
+.image1 img {
+  margin-left: 20px;
+  width: 130px;
+  height: 100px;
+  position: absolute;
+  right: 20px;
+}
+.one p{
+  opacity: 60%;
+}
+
+footer{
+  margin: 20px;
+  text-align: center;
+}
+footer button
+{
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  background-color: dimgrey;
+  color: white;
+  font-weight: 550;
+}
+a{
+  text-decoration: none;
+  color: rgb(6, 6, 62);
+}

@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background: #843ff3;
+}
+#container .to-do-app {
+  width: 100%;
+  max-width: 500px;
+  background: #d4c7ff;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 100px auto 10px;
+}
+#container .to-do-app h1 {
+  color: #764cff;
+  padding: 10px;
+  text-align: center;
+}
+#container .to-do-app .row {
+  width: 80%;
+  margin: 0 auto 30px;
+}
+#container .to-do-app .row input {
+  width: 90%;
+  height: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: none;
+  outline: none;
+}
+#container .to-do-app .row button {
+  width: 60px;
+  height: 40px;
+  margin-left: -30px;
+  padding: 10px;
+  border-radius: 30px;
+  color: white;
+  background-color: #843ff3;
+  border-style: none;
+  border: none;
+  cursor: pointer;
+}
+ul li {
+  list-style: none;
+  max-width: 350px;
+  background-color: #ebe5ff;
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 30px;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+}
+ul li::before {
+  content: " ";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-image: url(./Source/radio-button-unchecked.svg);
+  background-size: cover;
+  left: -30px;
+  background-repeat: no-repeat;
+}
+ul li.checked {
+  text-decoration: line-through;
+}
+ul li.checked::before {
+  background-image: url(./Source/radio-button-on_1.svg);
+}
+ul li span {
+  position: absolute;
+  right: 0;
+  top: 0px;
+  width: 38.4px;
+  height: 38.4px;
+  font-size: 36px;
+  color: aliceblue;
+  vertical-align: middle;
+  text-align: center;
+}
+ul li span:hover {
+  background-color: #8863ff;
+  color: black;
+  border-radius: 50%;
+}

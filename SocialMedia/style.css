@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: rgba(128, 128, 128, 0.2);
+}
+nav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  background-color: cornflowerblue;
+  width: 100%;
+}
+nav .left {
+  display: flex;
+  width: 500px;
+  height: 50px;
+  align-items: center;
+}
+nav .left img {
+  width: 250px;
+  height: 40px;
+}
+nav .left {
+  justify-content: space-evenly;
+}
+nav .left div {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  justify-content: space-evenly;
+}
+.right div {
+  height: 50px;
+}
+.right img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 5px 0 5px 0;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+header nav .right {
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: space-around;
+}
+header nav .right .one {
+  display: flex;
+  align-items: center;
+}
+header nav .right .one i {
+  margin-left: -50px;
+}
+header nav .right input {
+  width: 300px;
+  height: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  border-style: none;
+}
+header section {
+  width: 1200px;
+  margin: 60px auto 10px auto;
+}
+header section #banner img {
+  width: 1200px;
+  height: 300px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+header section .profile {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+header section .profile img {
+  width: 100px;
+  border-radius: 5px;
+}
+header section .profile .left {
+  display: flex;
+
+  padding: 10px;
+  border-radius: 5px;
+}
+header section .profile .left p {
+  opacity: 0.7;
+}
+header section .profile .left .mutuals {
+  margin: 15px 10px;
+}
+header section .profile .left .mutuals img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+header section .profile .right {
+  display: flex;
+  flex-direction: column;
+}
+header section .profile .right .top {
+  display: flex;
+  height: fit-content;
+  width: 200px;
+  margin: 10px;
+  justify-content: space-between;
+}
+header section .profile .right .top p {
+  margin: 3px;
+}
+header section .profile .right .top div {
+  display: flex;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.2);
+  margin: 5px;
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  height: fit-content;
+}
+header section .profile .right .bottom {
+  margin: 10px;
+  text-align: right;
+}
+header section .profile .right .bottom button {
+  width: 30px;
+  margin-right: 10px;
+}
+article {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+article aside {
+  width: 300px;
+}
+.intro {
+  background-color: white;
+  margin: 10px 10px 10px 0;
+  padding: 20px;
+  border-radius: 5px;
+}
+.intro p {
+  text-align: center;
+  margin: 10px auto;
+}
+.intro hr {
+  width: 250px;
+  margin: 0 auto;
+}
+.intro ul li {
+  margin: 10px 30px;
+}
+.intro ul .l1 {
+  list-style-image: url(./Source/briefcase.svg);
+}
+.intro ul .l2 {
+  list-style-image: url(./Source/mortarboard.svg);
+}
+.intro ul .l3 {
+  list-style-image: url(./Source/mortarboard.svg);
+}
+.intro ul .l4 {
+  list-style: url(./Source/house.svg);
+}
+.intro ul .l5 {
+  list-style-image: url(./Source/geo-alt.svg);
+}
+.photos {
+  background-color: white;
+  margin: 20px 10px 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+.photos .photo-container {
+  display: flex;
+  flex-direction: column;
+}
+.photo-container .row {
+  display: flex;
+}
+.photo-container .row img {
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+}
+article section {
+  width: 880px;
+  margin-left: 20px;
+}
+article section .one {
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+article section .one .top div {
+  margin-left: 10px;
+}
+article section .one .top img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+article section .one .top {
+  display: flex;
+}
+article section .one .top div p {
+  font-size: 13px;
+  opacity: 0.5;
+}
+article section .one .mid {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+article section .one .mid textarea {
+  resize: none;
+  border-style: none;
+}
+article section .one .bottom {
+  display: flex;
+  margin: 10px auto auto 50px;
+  width: 400px;
+  justify-content: space-between;
+}
+article section .one .bottom div {
+  display: flex;
+  width: 150px;
+}
+article section .one .bottom .Video i {
+  color: red;
+}
+article section .one .bottom .Video p {
+  margin-left: 5px;
+}
+article section .one .bottom .photo i {
+  color: limegreen;
+}
+article section .one .bottom .photo p {
+  margin-left: 5px;
+}
+article section .one .bottom .Activity i {
+  color: rgb(255, 221, 0);
+}
+article section .one .bottom .Activity p {
+  margin-left: 5px;
+}
+
+article section .post1 {
+  background-color: white;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+article section .post1 .top .one div {
+  margin-left: 10px;
+}
+article section .post1 .top .one img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+article section .post1 .top {
+  display: flex;
+  width: 860px;
+  justify-content: space-between;
+}
+article section .post1 .top .one {
+  display: flex;
+}
+article section .post1 .top div p {
+  font-size: 13px;
+  opacity: 0.5;
+}
+article section .post1 .top .two {
+  margin-top: 10px;
+  padding: 10px;
+}
+article section .post1 .mid {
+  margin-top: 10px;
+}
+article section .post1 .mid p {
+  opacity: 0.7;
+  font-size: 18px;
+}
+article section .post1 .mid span {
+  font-weight: 550;
+  opacity: 1.5;
+}
+img {
+  width: 100%;
+}
+.hashtags {
+  color: blue;
+}
+article section .post1 .mid img {
+  height: 400px;
+  border-radius: 5px;
+}
+article section .post1 .bottom {
+  display: flex;
+  justify-content: space-between;
+}
+article section .post1 .bottom .left {
+  display: flex;
+}
+article section .post1 .bottom .left div {
+  display: flex;
+  padding: 10px;
+  width: 70px;
+}
+article section .post1 .bottom .left div p {
+  margin-left: 5px;
+}
+article section .post1 .bottom .right {
+  display: flex;
+  color: grey;
+}
+article section .post1 .bottom .right img {
+  width: 30px;
+  height: 30px;
+}
+article section .post1 .bottom .right i {
+  padding: 5px;
+  align-self: center;
+}

@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(Source/index_BG.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.container {
+  margin: 10px auto;
+}
+#content h1 {
+  font-size: 42px;
+  font-weight: 100;
+}
+#content p {
+  margin: 10px 0 15px 0;
+  font-size: medium;
+}
+button {
+  width: 150px;
+  height: 40px;
+  background-color: #0f98bb;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-size: medium;
+}

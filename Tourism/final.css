@@ -1,0 +1,36 @@
+html {
+  margin: 3vw;
+}
+header {
+  margin: 10px 0 50px 0;
+}
+
+#main {
+  background-color: white;
+}
+.des {
+  padding: 20px 20px;
+  border: solid 1px black;
+}
+
+p {
+  opacity: 80%;
+}
+
+footer {
+  margin: 20px;
+  text-align: center;
+}
+footer button {
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  background-color: dimgrey;
+  color: white;
+  font-weight: 550;
+}
+a {
+  text-decoration: none;
+  color: rgb(6, 6, 62);
+}
